@@ -1,0 +1,9 @@
+# 私有内容：只存本地，永不上传 GitHub
+projects/
+reviews/
+style/
+idea.md
+
+# 本地草稿/临时
+*.local.md
+.DS_Store
