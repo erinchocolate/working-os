@@ -1,9 +1,23 @@
-# 私有内容：只存本地，永不上传 GitHub
-projects/
-reviews/
-style/
-idea.md
+# ── 私有内容：真实填充的内容只存本地；_TEMPLATE/ 骨架与目录结构照常上传 ──
 
-# 本地草稿/临时
+# projects/：忽略真实项目，保留 _TEMPLATE
+projects/*
+!projects/_TEMPLATE/
+
+# reviews/：忽略真实复盘与候选池，保留 _TEMPLATE 与空目录结构
+reviews/daily/*
+!reviews/daily/.gitkeep
+reviews/recurring.md
+
+# style/：忽略真实画像与样本，保留 _TEMPLATE 与空目录结构
+style/english-profile.md
+style/sharing-profile.md
+style/english-samples/*
+!style/english-samples/.gitkeep
+style/sharing-samples/*
+!style/sharing-samples/.gitkeep
+
+# 杂项
 *.local.md
 .DS_Store
+idea.md
