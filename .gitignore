@@ -1,21 +1,27 @@
-# ── 私有内容：真实填充的内容只存本地；_TEMPLATE/ 骨架与目录结构照常上传 ──
+# ── 私有内容：真实填充的内容只存本地；仅上传目录结构（.gitkeep 占位）──
 
-# projects/：忽略真实项目，保留 _TEMPLATE
+# projects/：忽略所有真实项目（如 Marvin），仅保留目录结构
 projects/*
-!projects/_TEMPLATE/
+!projects/.gitkeep
 
-# reviews/：忽略真实复盘与候选池，保留 _TEMPLATE 与空目录结构
+# reviews/：忽略真实复盘与候选池，仅保留目录结构
+reviews/*
+!reviews/daily/
 reviews/daily/*
 !reviews/daily/.gitkeep
-reviews/recurring.md
 
-# style/：忽略真实画像与样本，保留 _TEMPLATE 与空目录结构
-style/english-profile.md
-style/sharing-profile.md
+# style/：忽略真实画像与样本，仅保留目录结构
+style/*
+!style/english-samples/
+!style/sharing-samples/
 style/english-samples/*
 !style/english-samples/.gitkeep
 style/sharing-samples/*
 !style/sharing-samples/.gitkeep
+
+# learning/：忽略真实内容，仅保留目录结构
+learning/*
+!learning/.gitkeep
 
 # 杂项
 *.local.md
