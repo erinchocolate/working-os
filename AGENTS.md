@@ -24,6 +24,7 @@
 | 分享 | `skills/分享.md` | 出分享/演示初稿 + 学主人的分享风格 |
 | 复盘 | `skills/复盘.md` | 沉淀当天认知，跨情境复现晋升为认知资产（循环 B） |
 | 学习 | `skills/学习.md` | 苏格拉底式探讨一个话题，产出学习笔记 |
+| 系统复盘 | `skills/系统复盘.md` | 每周把复盘对准系统本身，把摩擦改进 `skills/`（元循环） |
 
 > **skill = 给 AI 的工作流**，是 agent 中立的纯 markdown，本系统真正的行为都在 `skills/` 里。
 > 各 agent 目录下的适配器（`.claude/skills/`、`.cursor/rules/`、`.github/copilot-instructions.md`）只是「触发入口」，内容就一句：重定向到这里。
@@ -46,6 +47,7 @@ skills/              工作流（行为层）
 projects/<项目>/     context.md / decisions.md / pitfalls.md / ingest/
 learning/<话题>/     学习笔记
 reviews/daily/       每日复盘    reviews/recurring.md  认知候选池
+reviews/system/      每周系统复盘（元循环：改 skills 的演化轨迹）
 assets/              认知资产：INDEX.md / mental-models.md / pitfalls.md / mirror.md
 style/               风格画像 + 配对样本
 ```
