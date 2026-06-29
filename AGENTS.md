@@ -26,9 +26,6 @@
 | 学习 | `skills/学习.md` | 苏格拉底式探讨一个话题，产出学习笔记 |
 | 系统复盘 | `skills/系统复盘.md` | 每周把复盘对准系统本身，把摩擦改进 `skills/`（元循环） |
 
-> **skill = 给 AI 的工作流**，是 agent 中立的纯 markdown，本系统真正的行为都在 `skills/` 里。
-> 各 agent 目录下的适配器（`.claude/skills/`、`.cursor/rules/`、`.github/copilot-instructions.md`）只是「触发入口」，内容就一句：重定向到这里。
-
 ## 每次会话先读（常驻指针）
 
 开始任何 skill 前，先加载这几个文件作为「记忆」——它们是提炼后能直接当 prompt 用的精炼结论：
