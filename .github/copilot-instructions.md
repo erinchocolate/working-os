@@ -4,18 +4,22 @@
 
 **第一步：打开并读 `AGENTS.md`，以它为准。** 本文件只是 Copilot 的触发入口，下面是精简摘要，细节一律以 `AGENTS.md` 和 `skills/` 为准。
 
-## 触发机制：关键词 → skill
+## 触发机制：关键词 → skill（强制）
 
-当我（主人）以某个**关键词**开头跟你说话，你要先打开 `skills/<关键词>.md`，按那份工作流执行：
+当我（主人）的请求命中某个**关键词或触发表达**，你必须先打开对应 `skills/<关键词>.md`，读完后按那份工作流执行。不能跳过、猜测或只凭记忆执行；若没读到 skill，先停下来读。
 
-| 关键词 | 读这个文件 |
+| 关键词 / 触发表达 | 读这个文件 |
 |---|---|
-| 摄取 | `skills/摄取.md` |
-| 执行 | `skills/执行.md` |
-| 润色 | `skills/润色.md` |
-| 分享 | `skills/分享.md` |
-| 复盘 | `skills/复盘.md` |
-| 学习 | `skills/学习.md` |
+| 摄取、摄取 inbox、处理 inbox、ingest | `skills/摄取.md` |
+| 执行、做这个任务、改代码、实现 | `skills/执行.md` |
+| 润色、改英文、polish | `skills/润色.md` |
+| 分享、presentation、demo | `skills/分享.md` |
+| 复盘、日复盘、今天复盘、周复盘、daily review、weekly review | `skills/复盘.md` |
+| 学习、一起学、讲讲 | `skills/学习.md` |
+| 收工、结束总结、session digest | `skills/收工.md` |
+| 系统复盘、复盘系统、working-os 复盘 | `skills/系统复盘.md` |
+
+如果一句话命中多个关键词，按 `AGENTS.md` 的优先级处理，并简短说明先跑哪个 workflow。
 
 ## 每次会话先读（常驻指针）
 

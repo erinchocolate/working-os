@@ -9,6 +9,38 @@ reviews/*
 !reviews/daily/
 reviews/daily/*
 !reviews/daily/.gitkeep
+!reviews/weekly/
+reviews/weekly/*
+!reviews/weekly/.gitkeep
+!reviews/system/
+reviews/system/*
+!reviews/system/.gitkeep
+
+# inbox/worklog/reminders：真实工作材料仅本地保存
+inbox/*
+!inbox/.gitkeep
+!inbox/_processed/
+inbox/_processed/*
+!inbox/_processed/.gitkeep
+!inbox/_needs-review/
+inbox/_needs-review/*
+!inbox/_needs-review/.gitkeep
+worklog/*
+!worklog/.gitkeep
+reminders/*
+!reminders/.gitkeep
+!reminders/daily/
+reminders/daily/*
+!reminders/daily/.gitkeep
+!reminders/weekly/
+reminders/weekly/*
+!reminders/weekly/.gitkeep
+!reminders/system/
+reminders/system/*
+!reminders/system/.gitkeep
+!reminders/inbox/
+reminders/inbox/*
+!reminders/inbox/.gitkeep
 
 # style/：忽略真实画像与样本，仅保留目录结构
 style/*

@@ -12,19 +12,29 @@
 
 底层目的：把执行的时间省出来，留给思考和学习。
 
-## 怎么用：关键词 → skill
+## 怎么用：关键词 → skill（强制路由）
 
-主人对你说一个**关键词**，你就去 `skills/<关键词>.md` 读那份工作流并照做。
+主人对你说一个**关键词**，你必须把它当成工作流触发器，而不是普通聊天。
 
-| 关键词 | skill 文件 | 做什么 |
+**强制规则**：
+1. 只要主人的请求里出现下表关键词，第一步必须打开并完整阅读对应的 `skills/<关键词>.md`。
+2. 读完 skill 后，先按 skill 的「先读」要求加载常驻指针和必要 context，再开始执行。
+3. 不能跳过、猜测或只凭记忆执行。若没有读到对应 skill，必须先停下来读。
+4. 若一句话命中多个关键词，优先级为：`系统复盘` > `复盘` > `摄取` > `执行` > `收工` > `分享` > `润色` > `学习`；必要时说明会按哪个 workflow 先跑。
+5. 关键词可以出现在句首或句中，例如「摄取 inbox」「帮我复盘」「执行 Marvin 这个需求」「做一次系统复盘」。
+
+| 关键词 / 触发表达 | 必读 skill 文件 | 做什么 |
 |---|---|---|
-| 摄取 | `skills/摄取.md` | 把笔记/会议/交流转成结构化项目 context |
-| 执行 | `skills/执行.md` | 基于 context 把需求转成代码/方案，副产品自动回写 |
-| 润色 | `skills/润色.md` | 改英语 + 学主人的英语风格（循环 A） |
-| 分享 | `skills/分享.md` | 出分享/演示初稿 + 学主人的分享风格 |
-| 复盘 | `skills/复盘.md` | 沉淀当天认知，跨情境复现晋升为认知资产（循环 B） |
-| 学习 | `skills/学习.md` | 苏格拉底式探讨一个话题，产出学习笔记 |
-| 系统复盘 | `skills/系统复盘.md` | 每周把复盘对准系统本身，把摩擦改进 `skills/`（元循环） |
+| 摄取、摄取 inbox、处理 inbox、ingest | `skills/摄取.md` | 把 inbox/笔记/会议/交流转成结构化项目 context |
+| 执行、做这个任务、改代码、实现 | `skills/执行.md` | 基于 context + 真实代码仓库把需求转成代码/方案，副产品自动回写 |
+| 润色、改英文、polish | `skills/润色.md` | 改英语 + 学主人的英语风格（循环 A） |
+| 分享、presentation、demo | `skills/分享.md` | 出分享/演示初稿 + 学主人的分享风格 |
+| 复盘、日复盘、今天复盘、周复盘、daily review、weekly review | `skills/复盘.md` | 沉淀日/周认知，跨情境复现晋升为认知资产（循环 B） |
+| 学习、一起学、讲讲 | `skills/学习.md` | 苏格拉底式探讨一个话题，产出学习笔记 |
+| 收工、结束总结、session digest | `skills/收工.md` | 把一次 AI 对话或任务 session 总结进 `worklog/` |
+| 系统复盘、复盘系统、working-os 复盘 | `skills/系统复盘.md` | 定期把复盘对准系统本身，把摩擦改进 `skills/`（元循环） |
+
+**执行确认句**：触发 skill 后，agent 应该简短说明「我会先读 `skills/<关键词>.md`，再按它执行」。
 
 ## 每次会话先读（常驻指针）
 
@@ -40,14 +50,26 @@
 
 ```
 AGENTS.md            本文件，唯一真源
+RUNBOOK.md           v1 试运行步骤：摄取、收工、复盘、提醒脚本
 skills/              工作流（行为层）
-projects/<项目>/     context.md / decisions.md / pitfalls.md / ingest/
+inbox/               无分类入口：会议、聊天、随手笔记、Copilot notes 先扔这里
+projects/<项目>/     project.md / context.md / decisions.md / pitfalls.md / ingest/
+worklog/             AI session digest 与执行任务总结
 learning/<话题>/     学习笔记
-reviews/daily/       每日复盘    reviews/recurring.md  认知候选池
+reviews/daily/       每日复盘    reviews/weekly/ 周复盘    reviews/recurring.md  认知候选池
 reviews/system/      每周系统复盘（元循环：改 skills 的演化轨迹）
 assets/              认知资产：INDEX.md / mental-models.md / pitfalls.md / mirror.md
 style/               风格画像 + 配对样本
+reminders/           本地提醒脚本生成的提醒记录
+scripts/             本地辅助脚本，如复盘提醒
 ```
+
+## 低摩擦运行原则
+
+- **主人负责捕获，不负责整理**：任何可能有用的会议记录、聊天记录、随手笔记，都可以直接拖进 `inbox/`。
+- **AI 负责分类、归档、抽取、复盘**：`摄取 inbox` 时由 AI 判断类型、项目、路由目标；能确定就自动处理。
+- **在记忆最热的时候问**：交互摄取时缺 metadata、项目归属不确定、敏感度不确定或遇到矛盾，就直接在当前对话问主人；后台无人值守时才写入 `inbox/_needs-review/`。
+- **长期资产谨慎确认**：`assets/` 里的心智模型、通用坑、镜像画像必须在晋升前问主人确认。
 
 ## 约定
 
