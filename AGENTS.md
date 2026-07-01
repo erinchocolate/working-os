@@ -61,7 +61,7 @@ reviews/system/      每周系统复盘（元循环：改 skills 的演化轨迹
 assets/              认知资产：INDEX.md / mental-models.md / pitfalls.md / mirror.md
 style/               风格画像 + 配对样本
 reminders/           本地提醒脚本生成的提醒记录
-scripts/             本地辅助脚本，如复盘提醒
+scripts/             本地辅助脚本，如复盘提醒；仅本机保留，不提交到 GitHub
 ```
 
 ## 低摩擦运行原则

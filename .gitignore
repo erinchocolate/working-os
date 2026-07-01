@@ -42,6 +42,10 @@ reminders/system/*
 reminders/inbox/*
 !reminders/inbox/.gitkeep
 
+# scripts/：本机自动化执行器仅本地保存；GitHub 保留规则与 runbook，不保留机器绑定脚本
+scripts/*
+!scripts/.gitkeep
+
 # style/：忽略真实画像与样本，仅保留目录结构
 style/*
 !style/english-samples/

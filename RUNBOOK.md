@@ -2,6 +2,8 @@
 
 This is the quick path for trying the first low-friction version.
 
+Note: `scripts/` is local-only and ignored by Git. The commands below work on this machine when those helper scripts exist locally; GitHub keeps the workflow rules and runbook, not machine-bound automation scripts.
+
 ## 1. Try inbox ingestion
 
 1. Put any Markdown note into `inbox/`.
