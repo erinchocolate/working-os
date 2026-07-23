@@ -20,13 +20,14 @@
 1. 只要主人的请求里出现下表关键词，第一步必须打开并完整阅读对应的 `skills/<关键词>.md`。
 2. 读完 skill 后，先按 skill 的「先读」要求加载常驻指针和必要 context，再开始执行。
 3. 不能跳过、猜测或只凭记忆执行。若没有读到对应 skill，必须先停下来读。
-4. 若一句话命中多个关键词，优先级为：`系统复盘` > `摄取` > `执行` > `收工` > `分享` > `润色` > `学习`；必要时说明会按哪个 workflow 先跑。
-5. 关键词可以出现在句首或句中，例如「摄取 Marvin 这段笔记」「执行 Marvin 这个需求」「做一次系统复盘」。
+4. 若一句话命中多个关键词，优先级为：`系统复盘` > `摄取` > `执行` > `DAB工作流测试` > `收工` > `分享` > `润色` > `学习`；必要时说明会按哪个 workflow 先跑。
+5. 关键词可以出现在句首或句中，例如「摄取 Marvin 这段笔记」「执行 Marvin 这个需求」「做一次系统复盘」「测试 DAB workflow」。
 
 | 关键词 / 触发表达 | 必读 skill 文件 | 做什么 |
 |---|---|---|
 | 摄取、ingest | `skills/摄取.md` | 把笔记/会议/交流转成结构化项目 context |
 | 执行、做这个任务、改代码、实现 | `skills/执行.md` | 基于 context + 真实代码仓库把需求转成代码/方案，副产品自动回写 |
+| 测试 DAB、测试 bundle、测试 Databricks workflow、测试 Lakeflow job、用本地 branch 测 workflow | `skills/DAB工作流测试.md` | 用个人 code path + 个人 DAB 在 Test 环境验证 branch workflow，跑完 destroy |
 | 润色、改英文、polish | `skills/润色.md` | 改英语 + 学主人的英语风格 |
 | 分享、presentation、demo | `skills/分享.md` | 出分享/演示初稿 + 学主人的分享风格 |
 | 学习、一起学、讲讲 | `skills/学习.md` | 苏格拉底式探讨一个话题，产出学习笔记 |
@@ -39,11 +40,12 @@
 
 ```
 工作 session → 收工 → worklog (含 Reflections) + 增量更新 recurring.md
+执行任务 → 执行 worklog (可含 Reflections) + 必要时增量更新 recurring.md
                                                           ↓
                               系统复盘 → count ≥ 2 且跨情境 → 提名 → 主人确认 → assets/
 ```
 
-- **worklog/** — 原始数据：每次 session 的事实记录 + 认知提炼
+- **worklog/** — 原始数据：每次 session / 执行任务的事实记录 + 认知提炼
 - **reviews/recurring.md** — 中间层：候选池，收工时增量维护（count / evidence / contexts）
 - **assets/** — 终态：经主人确认的跨情境通用认知
 
@@ -61,7 +63,7 @@
 
 ```
 AGENTS.md            本文件，唯一真源
-skills/              工作流（行为层）：7 个 skill
+skills/              工作流（行为层）：8 个 skill
 projects/<项目>/     project.md / context.md / decisions.md / pitfalls.md / ingest/
 worklog/             AI session digest + reflections（认知管道原料）
 reviews/recurring.md 认知候选池（中间层，收工时增量更新）
