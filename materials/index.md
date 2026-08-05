@@ -33,31 +33,65 @@ can help explain something to other people.
 ## Cards
 
 - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+- [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+- [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+- [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 
 ## Topic Index
 
 - AI:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+  - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+- AI collaboration:
+  - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+- Context infrastructure:
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
 - Computing interface:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
 - Human augmentation:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+- Human value:
+  - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+- Working OS:
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 - Sharing:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+  - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 
 ## Source Index
 
 - Article + personal reflection:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+- Thinking log:
+  - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 
 ## Possible Sharing Uses
 
 - AI 基础认知分享:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+- AI 工作流入门:
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 - Working OS / AI work system:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 - Hype Stack / AI tools:
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
+- AI 时代个人能力:
+  - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+- 从 prompt 到 context infrastructure:
+  - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
+  - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
 
 ## Source Types
 
@@ -65,6 +99,7 @@ can help explain something to other people.
 - Article
 - AI chat
 - Worklog
+- Thinking log
 - Recurring
 - Assets mental model
 - Learning note
