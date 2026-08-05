@@ -1,10 +1,6 @@
-# ── 私有内容：真实填充的内容只存本地；仅上传目录结构（.gitkeep 占位）──
+# ── 私有内容：过程材料只存本地；上传已提炼、可迁移的个人认知资产 ──
 
-# projects/：忽略所有真实项目（如 Marvin），仅保留目录结构
-projects/*
-!projects/.gitkeep
-
-# reviews/：忽略真实复盘与候选池，仅保留目录结构
+# reviews/：真实复盘与候选池仅本地保存；GitHub 只保留目录结构
 reviews/*
 !reviews/daily/
 reviews/daily/*
@@ -42,12 +38,9 @@ reminders/system/*
 reminders/inbox/*
 !reminders/inbox/.gitkeep
 
-# scripts/：本机自动化执行器仅本地保存；GitHub 保留规则与 runbook，不保留机器绑定脚本
-scripts/*
-!scripts/.gitkeep
-
-# style/：忽略真实画像与样本，仅保留目录结构
+# style/：profile 可进入个人 repo；样本默认保留本地
 style/*
+!style/*-profile.md
 !style/english-samples/
 !style/sharing-samples/
 style/english-samples/*
@@ -58,6 +51,12 @@ style/sharing-samples/*
 # learning/：忽略真实内容，仅保留目录结构
 learning/*
 !learning/.gitkeep
+
+# materials/：已提炼、可带走的个人表达素材卡可进入 repo；不要放敏感内容、公司私密原文或长篇转载。
+
+# sharing/：个人分享稿和 talk track 默认仅本地保存；GitHub 只保留目录结构
+sharing/*
+!sharing/.gitkeep
 
 # 杂项
 *.local.md
