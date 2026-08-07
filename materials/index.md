@@ -36,6 +36,8 @@ can help explain something to other people.
 - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
 - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
 - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+- [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+- [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 
 ## Topic Index
 
@@ -44,10 +46,15 @@ can help explain something to other people.
   - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
   - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+  - [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 - AI collaboration:
   - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
   - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+- AI product engineering:
+  - [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 - Context infrastructure:
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
 - Computing interface:
@@ -56,6 +63,11 @@ can help explain something to other people.
   - [AI 是自然语言调用算力和智能的界面](cards/2026-08-05-ai-as-natural-language-compute-interface.md)
 - Human value:
   - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
+- Retrieval:
+  - [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
+- Evaluation:
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 - Working OS:
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
   - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
@@ -64,6 +76,8 @@ can help explain something to other people.
   - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
   - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+  - [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 
 ## Source Index
 
@@ -73,6 +87,9 @@ can help explain something to other people.
   - [AI 时代人的价值是判断、组织和架构](cards/2026-08-06-ai-era-human-value-judgment-organization-architecture.md)
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
   - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+- Worklog:
+  - [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 
 ## Possible Sharing Uses
 
@@ -92,6 +109,11 @@ can help explain something to other people.
 - 从 prompt 到 context infrastructure:
   - [从 Prompt 到 Context Infrastructure](cards/2026-08-06-from-prompt-to-context-infrastructure.md)
   - [AI 协作飞轮：思考、外化、协作、复盘](cards/2026-08-06-ai-collaboration-flywheel.md)
+- AI 产品工程 / RAG 复盘:
+  - [AI 产品里的 Filter 是数据契约，不只是一个按钮](cards/2026-08-07-ai-product-filter-is-data-contract.md)
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
+- Retrieval evaluation:
+  - [Evaluation 要区分 Wiring、Retrieval Quality 和 Answer Quality](cards/2026-08-07-evaluation-separates-wiring-retrieval-answer-quality.md)
 
 ## Source Types
 

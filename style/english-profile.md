@@ -18,12 +18,14 @@
 - 问候语 "Hi Name," 内嵌在段落起始，不单独成行
 - 并列句前不加逗号（"candidates and please"，非 "candidates, and please"）
 - 内部经验分享可以用 `Shared a lesson we learned:` 开头，直接进入主题
+- 感谢/认可类消息里，少做额外延展；优先保留主人亲眼看到的具体贡献，不主动补充泛化的团队影响
 
 ## 语气 / 直接度
 - 直说意图，不软化；用 `we want to` / `I want to`，少用 `we'd like to` / `I would like to`
 - 请求权限用直陈句；用 `Is it okay if...`，少用 `Would it be okay if...`
 - 偏直接简洁；不升级原文的感激程度或情感热度
 - 忠于原文语气，不主动添加温情修饰
+- 表达认可时可以用朴素口语句收尾，例如 `which is not an easy job`；比正式的 impact statement 更像主人
 
 ## 样本
 - 样本档案见 `style/english-samples/`
