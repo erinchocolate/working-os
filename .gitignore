@@ -1,42 +1,6 @@
-# ── 私有内容：过程材料只存本地；上传已提炼、可迁移的个人认知资产 ──
-
-# reviews/：真实复盘与候选池仅本地保存；GitHub 只保留目录结构
-reviews/*
-!reviews/daily/
-reviews/daily/*
-!reviews/daily/.gitkeep
-!reviews/weekly/
-reviews/weekly/*
-!reviews/weekly/.gitkeep
-!reviews/system/
-reviews/system/*
-!reviews/system/.gitkeep
-
-# inbox/worklog/reminders：真实工作材料仅本地保存
-inbox/*
-!inbox/.gitkeep
-!inbox/_processed/
-inbox/_processed/*
-!inbox/_processed/.gitkeep
-!inbox/_needs-review/
-inbox/_needs-review/*
-!inbox/_needs-review/.gitkeep
+# 过程材料只存本地；个人判断库可随仓库保存。
 worklog/*
 !worklog/.gitkeep
-reminders/*
-!reminders/.gitkeep
-!reminders/daily/
-reminders/daily/*
-!reminders/daily/.gitkeep
-!reminders/weekly/
-reminders/weekly/*
-!reminders/weekly/.gitkeep
-!reminders/system/
-reminders/system/*
-!reminders/system/.gitkeep
-!reminders/inbox/
-reminders/inbox/*
-!reminders/inbox/.gitkeep
 
 # style/：profile 可进入个人 repo；样本默认保留本地
 style/*
@@ -47,12 +11,6 @@ style/english-samples/*
 !style/english-samples/.gitkeep
 style/sharing-samples/*
 !style/sharing-samples/.gitkeep
-
-# learning/：忽略真实内容，仅保留目录结构
-learning/*
-!learning/.gitkeep
-
-# materials/：已提炼、可带走的个人表达素材卡可进入 repo；不要放敏感内容、公司私密原文或长篇转载。
 
 # sharing/：个人分享稿和 talk track 默认仅本地保存；GitHub 只保留目录结构
 sharing/*
