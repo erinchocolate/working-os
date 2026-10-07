@@ -2,6 +2,10 @@
 worklog/*
 !worklog/.gitkeep
 
+# 任务笔记默认跟踪；本地实验附件不可进入 Git
+tasks/.local/
+tasks/**/.local/
+
 # style/：profile 可进入个人 repo；样本默认保留本地
 style/*
 !style/*-profile.md
